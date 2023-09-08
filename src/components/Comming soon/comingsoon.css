@@ -1,0 +1,71 @@
+.Countdown {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	color: #fff;
+	max-width: 40vw;
+}
+
+#coming-soon {
+	font-size: 60px;
+	font-weight: bold;
+	line-height: 50px;
+}
+
+.container-count {
+	background-position: center;
+	background-size: cover;
+	height: 20vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.clock {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.clock-section {
+	flex: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.clock-wrap {
+	padding: 20px;
+}
+.clock-timer {
+	font-size: 60px;
+	font-weight: bold;
+}
+.clock-seperator {
+	font-size: 30px;
+}
+.clock-txt {
+	padding-top: 20px;
+}
+@media screen and (max-width: 500px) {
+	.logo {
+		width: calc(100vw - 160px);
+	}
+	.clock-timer {
+		font-size: 30px;
+	}
+	.clock-seperator,
+	.clock-txt {
+		font-size: 15px;
+	}
+	.Countdown {
+		max-width: 80vw;
+	}
+	.clock-wrap {
+		padding: 10px;
+	}
+	#coming-soon {
+		padding-top: 20px;
+		font-size: 30px;
+		line-height: 30px;
+	}
+}
+

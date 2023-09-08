@@ -1,0 +1,475 @@
+@import url('http://fonts.cdnfonts.com/css/helvetica-neue-9');
+:root {
+  --clr-neon: #00adb5;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root,
+.scroll {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+
+#root {
+  overflow: auto;
+}
+
+.scroll {
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow-y: auto;
+  /* scroll-snap-type: y proximity; */
+  z-index: 40;
+  -webkit-overflow-scrolling: touch;
+}
+
+.scroll > div {
+  scroll-snap-align: start;
+}
+
+body {
+  position: fixed;
+  overflow: hidden;
+  overscroll-behavior-y: none;
+  /* background-color: #101010;
+  background: radial-gradient(circle at bottom center, #212121 0%, #101010 80%); */
+  /* font-family: "Inter var", sans-serif; */
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+}
+
+.dot {
+  /* pointer-events: none; */
+  position: flex;
+  top: 0px;
+  display: inline-block;
+  width: 100%;
+  padding: 0;
+  padding: 80px 40px;
+  color: #a0a0a0;
+  line-height: 1.6em;
+  font-size: 15px;
+  letter-spacing: 1.5px;
+  align-items: left;
+}
+
+.dot > h1 {
+  -webkit-font-smoothing: auto;
+  pointer-events: none;
+  color: white;
+  font-size: 3.5em;
+  margin: 0;
+  margin-bottom: 0.25em;
+  text-align: center;
+  justify-content: center;
+  padding-top: 50px;
+  /* padding-left: 3.5vw; */
+  text-transform: uppercase;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 49.4px;
+  width: 38vw;
+}
+
+.dot > img {
+  -webkit-font-smoothing: auto;
+  pointer-events: none;
+  margin: 0;
+  margin-bottom: 0.25em;
+  display: block;
+  margin: auto 0px;
+  width: 40%;
+  height: 40%;
+}
+
+.dot > .buttons {
+  display: inline-block;
+  flex-direction: row;
+  /* padding: 40px; */
+  -webkit-font-smoothing: auto;
+  text-align: center;
+  width: 40vw;
+  /* max-width: 750px; */
+  margin: -5% auto;
+}
+
+#container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.footer {
+  align-items: bottom;
+  justify-content: space-between;
+  background-color: rgb(44, 43, 43);
+  color: #fff;
+  opacity: 0.8;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  bottom: 0px;
+  padding: 0 30px;
+  z-index: 60;
+  display: block;
+}
+.footer h1 {
+  font-family: "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman",
+    "HelveticaNeue-Roman", "Helvetica Neue Roman", "TeXGyreHerosRegular",
+    "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+}
+
+.event-link {
+  display: block;
+  line-height: 40px;
+  margin-right: 1rem;
+}
+
+.event-link:after {
+  content: "";
+  display: block;
+  height: 3px;
+  width: 0;
+  max-width: 10rem;
+  background: transparent;
+  transition: width 5s ease, background-color 0.5s ease;
+}
+
+.event-link:hover:after {
+  width: 100%;
+  background: linear-gradient(to right, #ff2060, cyan);
+}
+
+.event-link.active {
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
+
+.event-link {
+  font-size: "5em";
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5rem 5.5rem;
+  height: 100%;
+  border-bottom: 3px solid transparent;
+  font-family: 'Helvetica Neue', sans-serif;
+  text-transform: uppercase;
+}
+
+.neon-button {
+  font-size: 2rem;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  color: var(--clr-neon);
+  text-decoration: none;
+  text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.35), 0 0 0.45em currentColor;
+  box-shadow: inset 0 0 0.5em 0 var(--clr-neon), 0 0 0.5em 0 var(--clr-neon);
+  border: var(--clr-neon) 4px solid;
+  border-radius: 0.25em;
+  padding: 0.25em 1em;
+  position: relative;
+  margin: 100px 30px;
+  background: transparent;
+}
+.button {
+  /* display: inline-flex; */
+  height: 40px;
+  width: 35vw;
+  border: 2px solid #bfc0c0;
+  margin: 20px 20px 20px 20px;
+  /* color: #BFC0C0; */
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 1em;
+  letter-spacing: 1.5px;
+  /* align-items: center;
+  justify-content: center; */
+  overflow: hidden;
+  font-family: 'Helvetica Neue', sans-serif;
+}
+#button-2 {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+#button-2 a {
+  position: relative;
+  color: white;
+  text-decoration: none;
+  top: 5px;
+  transition: all 0.35s ease-Out;
+}
+#slide {
+  /* width: 100%;
+  height: 100%; */
+  height: 40px;
+  width: 150px;
+  left: -200px;
+  background: #bfc0c0;
+  position: absolute;
+  transition: all 0.35s ease-Out;
+  bottom: 0;
+}
+#button-2:hover #slide {
+  left: 0;
+}
+
+#button-2:hover a {
+  /* color: #2D3142; */
+
+  color: black;
+}
+.neon-button::before,
+.neon-button::after {
+  pointer-events: none;
+  content: "";
+  position: absolute;
+}
+
+.neon-button::before {
+  /* background: var(--clr-neon); */
+  top: 120%;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  transform: perspective(1em) rotateX(40deg) scale(1, 0.35);
+  filter: blur(1.5em);
+  opacity: 0.7;
+}
+
+.neon-button::after {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: var(--clr-neon);
+  box-shadow: 0 0 0.75em 0.25em var(--clr-neon);
+  opacity: 0;
+  z-index: -1;
+  transition: opacity 0.1s linear;
+}
+
+.neon-button:hover,
+.neon-button:focus {
+  color: black;
+  text-shadow: none;
+}
+
+.neon-button:focus::before,
+.neon-button:focus::after,
+.neon-button:hover::before,
+.neon-button:hover::after {
+  opacity: 1;
+}
+@media only screen and (max-width: 1280px) {
+  .dot > img {
+    width: 50%;
+    height: 50%;
+  }
+  .dot > h1 {
+    font-size: 2.7em;
+    width: 50%;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .dot > img {
+    width: 70%;
+    height: 70%;
+  }
+  .dot > h1 {
+    font-size: 3em;
+    width: 50%;
+    text-align: center;
+  }
+
+}
+
+@media only screen and (max-width: 800px) {
+  .dot > img {
+    width: 80%;
+    height: 80%;
+  }
+  .dot > h1 {
+    font-size: 3em;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .dot > img {
+    width: 90%;
+    height: 90%;
+  }
+  .dot > h1 {
+    font-size: 2em;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .dot > img {
+    width: 100%;
+    height: 100%;
+  }
+  .dot > h1 {
+    font-size: 2em;
+    width: 100%;
+    text-align: center;
+  }
+  .neon-button {
+    margin: 50px 30px;
+  }
+
+}
+@media only screen and (max-width: 500px) {
+  .dot > img {
+    width: 100%;
+    height: 100%;
+  }
+  .dot > h1 {
+    font-size: 2em;
+    width: 100%;
+    text-align: center;
+  }
+  .neon-button {
+    margin: 50px 30px;
+  }
+  .dot > .buttons{
+    width: 100%;
+  }
+}
+
+.main ul{
+  list-style:none;
+    padding-left:0;
+}
+
+.main {
+  display: flex;
+  gap: 50px;
+  margin: 50px 0;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  transition: ease 0.5s;
+  text-decoration: none;
+  list-style-type: none;
+  font-size: 12px;
+  font-weight: 300;
+
+}
+.col1 {
+  flex: 2;
+  
+}
+.col2 {
+  flex: 2;
+}
+.col3 {
+  flex: 3;
+}
+
+.col3 img{
+  height: 70px;
+  width: 70px;
+}
+
+.heading {
+  font-size: 16px;
+  font-weight: 600;
+}
+.main a {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 5px 0;
+  color: rgb(255, 255, 255);
+  transition: ease 0.5s;
+  text-decoration: none;
+}
+.main a:hover {
+  color: #284dd9;
+}
+.partner-logo {
+  font-size: 50px;
+  color: tomato;
+  margin-top: 10px;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.copyright {
+  color: gray;
+}
+.policy a {
+  color: black;
+  margin-left: 20px;
+}
+
+.circle {
+  position: absolute;
+  width: 700px;
+  height: 700px;
+  border-radius: 50%;
+  border: solid 2px #d2dcf7;
+}
+.c1 {
+  top: -600px;
+  left: -500px;
+}
+.c2 {
+  bottom: -600px;
+  right: -200px;
+}
+.c3 {
+  bottom: -400px;
+  right: -500px;
+}
+
+.highlights{
+  color: white;
+  text-align: center;
+}
+
+.Highlights-div{
+  display: block;
+}
+
+#highlightdiv{
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  height: fit-content;
+}
+
+#highlightimg{ 
+  height: fit-content;
+  max-height: 140vh;
+  max-width: 105vw;;
+  padding-left: 10px;
+}
+
+.Event-cards{
+  height: 7`00px;
+}

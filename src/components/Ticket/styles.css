@@ -1,0 +1,24 @@
+.ticket {
+	margin-top: 80px;
+	min-height: calc(100vh - 80px);
+	padding-inline: 20px;
+	background-color: white;
+	color: black;
+	font-size: 30px;
+	display: block;
+	width: auto;
+	height: auto;
+	overflow: visible;
+}
+
+.ticket ul {
+	margin-top: 10px;
+}
+
+.qr {
+	margin: 20px;
+	width: 400px;
+	page-break-before: always; /* 'always,' 'avoid,' 'left,' 'inherit,' or 'right' */
+	page-break-after: always; /* 'always,' 'avoid,' 'left,' 'inherit,' or 'right' */
+	page-break-inside: avoid; /* or 'auto' */
+}
