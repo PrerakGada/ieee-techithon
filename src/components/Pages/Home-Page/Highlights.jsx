@@ -1,5 +1,5 @@
-import './Highlights.css'
 import { useNavigate } from "react-router-dom";
+import './Highlights.css';
 
 
 export function Highlights() {
@@ -18,7 +18,7 @@ export function Highlights() {
     )
 }
 
-export function PreEvents() {
+export default function PreEvents() {
     let navigate = useNavigate(); 
     const routeChange = () =>{ 
     let path = `/events`; 

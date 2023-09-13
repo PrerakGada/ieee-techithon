@@ -1,5 +1,8 @@
 import React, { forwardRef } from "react";
+import Eventcarousel from "./../../Cards/EventCards";
+import RegisgteredEventcarousel from "./../../Cards/RegisteredEventCards";
 import Countdown from "./../../Comming soon/CommingSoon";
+import PreEvents from "./Highlights";
 import { Footer, Sponsers } from "./footer";
 import "./home.css";
 
@@ -21,7 +24,7 @@ const Overlay = forwardRef(({ scroll }, ref) => (
 					{/* <h1 id="ieee">IEEE Techithon 2023</h1> */}
 					<img src="kaizen_logo.png" alt="carnivel"></img>
 					<Countdown />
-					{/* <div className="buttons">
+					<div className="buttons">
 						{localStorage.token && (
 							<button
 								className="neon-button"
@@ -30,10 +33,10 @@ const Overlay = forwardRef(({ scroll }, ref) => (
 								Show Ticket
 							</button>
 						)}
-					</div> */}
+					</div>
 				</div>
 			</div>
-			{/* {localStorage.token && (
+			{localStorage.token && (
 				<>
 					<div className="Event-cards">
 						<div className="events">
@@ -54,7 +57,7 @@ const Overlay = forwardRef(({ scroll }, ref) => (
 					<h1 className="highlights">PRE EVENTS</h1>
 					<PreEvents />
 				</div>
-			</div> */}
+			</div>
 			{/* <div className="Highlights-div">
 				<div className="events">
 					<h1 className="highlights">HIGHLIGHTS</h1>
