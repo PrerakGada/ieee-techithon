@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
 body {
 	background: #222831;
 }
@@ -55,10 +56,12 @@ body {
 	color: #ffffff;
 	text-shadow: 0px 0px 6px #000000;
 }
+
 .gridDisplay {
 	position: relative;
 	top: 25vh;
 }
+
 .boxtwo {
 	/* box-sizing: border-box; */
 	position: absolute;
@@ -78,9 +81,11 @@ body {
 	line-height: 1.2em;
 	height: 20em;
 }
+
 .boxone {
 	position: relative;
 }
+
 .boxone img {
 	/* position: absolute;
     display: flex;
@@ -95,10 +100,12 @@ body {
 	height: 120vh;
 	margin-top: -20px;
 }
+
 .logos {
 	position: relative;
 	margin-top: 100px;
 }
+
 .boxone .iee {
 	position: absolute;
 	width: 120px;
@@ -106,6 +113,7 @@ body {
 	left: 5%;
 	top: 120px;
 }
+
 .boxone .alca {
 	position: absolute;
 	width: 40%;
@@ -113,6 +121,7 @@ body {
 	left: 30%;
 	top: 120px;
 }
+
 .boxone .ace {
 	position: absolute;
 	right: 4%;
@@ -120,6 +129,7 @@ body {
 	height: 80px;
 	top: 120px;
 }
+
 .backgroound-page {
 	height: 10;
 }
@@ -145,10 +155,6 @@ section::after {
 .container {
 	position: relative;
 	z-index: 1;
-	/* display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-wrap: wrap; */
 	margin: 40px 40px;
 	height: 400px;
 }
@@ -172,8 +178,9 @@ section::after {
 }
 
 .ourTeamBlock {
-	display: grid;
-	grid-template-columns: auto auto auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 
 .container .card {
@@ -230,6 +237,7 @@ section::after {
 	margin: 10px 0 10px 0px;
 	line-height: 1.1em;
 }
+
 .container .card .content .contentBx h2 {
 	text-align: center;
 }
@@ -266,6 +274,7 @@ section::after {
 }
 
 @media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+
 	/* .title {
         display: inline-block;
         margin-left: 70px;
@@ -281,22 +290,16 @@ section::after {
         margin-left: 60px;
         color: white;
     } */
-	.ourTeamBlock {
-		display: grid;
-		grid-template-columns: auto auto;
-	}
+
 	.boxone {
 		width: 75vw;
 	}
-	.boxtwo {
-		/* margin-left: -200px;
-        margin-top: -150px;
-        width: 600px;
-        height: 350px; */
-	}
+
+
 }
 
 @media screen and (max-device-width: 480px) and (orientation: portrait) {
+
 	/* .title {
         display: inline-block;
         margin-left: 70px;
@@ -312,23 +315,24 @@ section::after {
         margin-left: 60px;
         color: white;
     } */
-	.ourTeamBlock {
-		display: grid;
-		grid-template-columns: auto;
-		margin-left: 20px;
+	.container .card {
+		margin: 10px;
 	}
+
 	.boxone {
 		top: 80px;
 		width: 100vw;
 		height: 110vh;
 		border-radius: 0%;
 	}
+
 	.boxone .bgimg {
 		/* max-width: fit-content; */
 		object-fit: cover;
 		width: 100%;
 		border-radius: 0%;
 	}
+
 	.boxone .iee {
 		position: absolute;
 		width: 100px;
@@ -336,6 +340,7 @@ section::after {
 		left: 5%;
 		top: 50px;
 	}
+
 	.boxone .alca {
 		position: absolute;
 		width: 90%;
@@ -343,6 +348,7 @@ section::after {
 		left: 5%;
 		top: 150px;
 	}
+
 	.boxone .ace {
 		position: absolute;
 		right: 4%;
@@ -350,6 +356,7 @@ section::after {
 		height: 60px;
 		top: 50px;
 	}
+
 	.boxtwo {
 		max-width: 100%;
 		min-height: 25em;
@@ -359,10 +366,12 @@ section::after {
 		left: 12.5em;
 		text-align: center;
 	}
+
 	.boxtwo h1 {
 		font-size: 20px;
 		padding-left: 17vw;
 	}
+
 	.boxtwo a {
 		font-size: 15px;
 	}
@@ -384,23 +393,22 @@ section::after {
         margin-left: 60px;
         color: white;} */
 
-	.ourTeamBlock {
-		display: grid;
-		grid-template-columns: auto;
-		margin-left: 20px;
-	}
+
+
 	.boxone {
 		top: 80px;
 		width: 100vw;
 		height: 110vh;
 		border-radius: 0%;
 	}
+
 	.boxone .bgimg {
 		/* max-width: fit-content; */
 		object-fit: cover;
 		width: 100%;
 		border-radius: 0%;
 	}
+
 	.boxone .iee {
 		position: absolute;
 		width: 100px;
@@ -408,6 +416,7 @@ section::after {
 		left: 5%;
 		top: 50px;
 	}
+
 	.boxone .alca {
 		position: absolute;
 		width: 90%;
@@ -415,6 +424,7 @@ section::after {
 		left: 5%;
 		top: 150px;
 	}
+
 	.boxone .ace {
 		position: absolute;
 		right: 4%;
@@ -422,6 +432,7 @@ section::after {
 		height: 60px;
 		top: 50px;
 	}
+
 	.boxtwo {
 		max-width: 100%;
 		min-height: 25em;
@@ -431,16 +442,19 @@ section::after {
 		left: 12.5em;
 		text-align: center;
 	}
+
 	.boxtwo h1 {
 		font-size: 20px;
 		padding-left: 17vw;
 	}
+
 	.boxtwo a {
 		font-size: 15px;
 	}
 }
 
 @media screen and (max-device-width: 640px) {
+
 	/* .title {
         display: inline-block;
         margin-left: 70px;
@@ -456,21 +470,19 @@ section::after {
         margin-left: 60px;
         color: white;
     } */
-	.ourTeamBlock {
-		display: grid;
-		grid-template-columns: auto;
-		margin-left: 20px;
-	}
+
 	.boxone {
 		width: 100%;
 		left: 0%;
 	}
+
 	.boxtwo {
 		margin-left: -200px;
 		margin-top: -150px;
 		width: 550px;
 		height: 350px;
 	}
+
 	.container {
 		margin: 30px auto;
 	}
@@ -487,20 +499,19 @@ section::after {
 	.title {
 		align-items: center;
 	}
+
 	.head {
 		align-items: center;
 	}
+
 	.ah {
 		align-items: center;
 	}
-	.ourTeamBlock {
-		display: grid;
-		grid-template-columns: auto;
-		margin-left: 20px;
-	}
+
 }
 
 @media (device-height: 568px) and (device-width: 320px) and (-webkit-min-device-pixel-ratio: 2) {
+
 	/* .title {
         display: inline-block;
         margin-left: 70px;
@@ -516,14 +527,10 @@ section::after {
         margin-left: 60px;
         color: white;
     } */
-	.ourTeamBlock {
-		display: grid;
-		grid-template-columns: auto;
-		margin-left: 20px;
-	}
 }
 
 @media (min-device-height: 667px) and (min-device-width: 375px) and (-webkit-min-device-pixel-ratio: 3) {
+
 	/* .title {
         display: inline-block;
         margin-left: 700px;
@@ -539,9 +546,4 @@ section::after {
         margin-left: 60px;
         color: white;
     } */
-	.ourTeamBlock {
-		display: grid;
-		grid-template-columns: auto;
-		margin-left: 20px;
-	}
 }
