@@ -1,5 +1,4 @@
 import React, { forwardRef } from "react";
-import Eventcarousel from "./../../Cards/EventCards";
 import RegisgteredEventcarousel from "./../../Cards/RegisteredEventCards";
 import Countdown from "./../../Comming soon/CommingSoon";
 import PreEvents from "./Highlights";
@@ -46,12 +45,12 @@ const Overlay = forwardRef(({ scroll }, ref) => (
 					</div>
 				</>
 			)}
-			<div className="Event-cards">
+			{/* <div className="Event-cards">
 				<div className="events">
 					<h1 className="event-link">Events</h1>
 					<Eventcarousel />
 				</div>
-			</div>
+			</div> */}
 			<div className="Highlights-div">
 				<div className="events">
 					<h1 className="highlights">PRE EVENTS</h1>
