@@ -27,15 +27,87 @@ export default function PreEvents() {
     return (
         <div class="content demo">
             <div class="card-hghlght demo-card">
-                <img src="/img/3.jpg " alt="3"></img>
+                <img src="\events\volleyball.png" alt="3"></img>
                 <button onClick={routeChange} className='btn' >Register</button>
             </div>
             <div class="card-hghlght demo-card">
-                <img src="/img/8.jpg " alt="8"></img>
+                <img src="\events\cricket.png" alt="8"></img>
                 <button onClick={routeChange} className='btn' >Register</button>
             </div>
             <div class="card-hghlght demo-card">
-                <img src="/img/7.jpg " alt="7"></img>
+                <img src="\events\footbal.png" alt="7"></img>
+                <button onClick={routeChange} className='btn' >Register</button>
+            </div>
+
+            <div class="card-hghlght demo-card">
+                <img src="\events\footbal.png" alt="7"></img>
+                <button onClick={routeChange} className='btn' >Register</button>
+            </div>
+
+            <div class="card-hghlght demo-card">
+                <img src="\events\footbal.png" alt="7"></img>
+                <button onClick={routeChange} className='btn' >Register</button>
+            </div>
+
+            <div class="card-hghlght demo-card">
+                <img src="\events\footbal.png" alt="7"></img>
+                <button onClick={routeChange} className='btn' >Register</button>
+            </div>
+
+            <div class="card-hghlght demo-card">
+                <img src="\events\footbal.png" alt="7"></img>
+                <button onClick={routeChange} className='btn' >Register</button>
+            </div>
+
+            <div class="card-hghlght demo-card">
+                <img src="\events\footbal.png" alt="7"></img>
+                <button onClick={routeChange} className='btn' >Register</button>
+            </div>
+
+            <div class="card-hghlght demo-card">
+                <img src="\events\footbal.png" alt="7"></img>
+                <button onClick={routeChange} className='btn' >Register</button>
+            </div>
+
+            <div class="card-hghlght demo-card">
+                <img src="\events\footbal.png" alt="7"></img>
+                <button onClick={routeChange} className='btn' >Register</button>
+            </div>
+
+
+            <div class="card-hghlght demo-card">
+                <img src="\events\footbal.png" alt="7"></img>
+                <button onClick={routeChange} className='btn' >Register</button>
+            </div>
+
+
+            <div class="card-hghlght demo-card">
+                <img src="\events\footbal.png" alt="7"></img>
+                <button onClick={routeChange} className='btn' >Register</button>
+            </div>
+
+            <div class="card-hghlght demo-card">
+                <img src="\events\footbal.png" alt="7"></img>
+                <button onClick={routeChange} className='btn' >Register</button>
+            </div>
+
+            <div class="card-hghlght demo-card">
+                <img src="\events\footbal.png" alt="7"></img>
+                <button onClick={routeChange} className='btn' >Register</button>
+            </div>
+
+            <div class="card-hghlght demo-card">
+                <img src="\events\footbal.png" alt="7"></img>
+                <button onClick={routeChange} className='btn' >Register</button>
+            </div>
+
+            <div class="card-hghlght demo-card">
+                <img src="\events\footbal.png" alt="7"></img>
+                <button onClick={routeChange} className='btn' >Register</button>
+            </div>
+
+            <div class="card-hghlght demo-card">
+                <img src="\events\footbal.png" alt="7"></img>
                 <button onClick={routeChange} className='btn' >Register</button>
             </div>
         </div>
