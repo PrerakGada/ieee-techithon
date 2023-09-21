@@ -11,7 +11,7 @@ function AboutUsCard(props) {
             <div className="card">
               <div className="content">
                 <div className="imgBx">
-                  <img src={props.img} alt="Zoro"/>
+                  <img className='' src={props.img} alt="Zoro"/>
                 </div>
                 <div class="contentBx">
                   <h3>{props.name}</h3>
