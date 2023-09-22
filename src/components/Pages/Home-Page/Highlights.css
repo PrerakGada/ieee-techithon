@@ -64,8 +64,9 @@
 }
 
 .card-hghlght:hover {
-    opacity: 1;
-    transform: scale(1.02);
+     transform: rotateY( 180deg ) ;
+        transition: transform 0.5s;
+    
 }
 
 .demo:hover .card-hghlght:not(:hover) {

@@ -128,7 +128,7 @@ export const AboutData = [
 		img: "/committe/anuj.png",
 	},
 	{
-		id: 16,
+		id: 17,
 		category: "asst",
 		post: "Marketing",
 		name: "ANIKET LASE",

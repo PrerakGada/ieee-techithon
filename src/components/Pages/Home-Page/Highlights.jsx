@@ -21,7 +21,7 @@ export function Highlights() {
 export default function PreEvents() {
     let navigate = useNavigate(); 
     const routeChange = () =>{ 
-    let path = `/events`; 
+    let path = `/events`;
     navigate(path);
     }
     return (

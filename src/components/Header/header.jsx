@@ -85,6 +85,15 @@ export function Header() {
 								Events
 							</Link>
 						</li>
+						<li className="nav-item">
+							<Link
+								to="/hackathon"
+								className="nav-links"
+								onClick={click ? handleClick : null}
+							>
+								Hackathon
+							</Link>
+						</li>
 						{localStorage.token ? (
 							<li className="nav-item">
 								<span
