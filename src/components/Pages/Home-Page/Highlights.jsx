@@ -28,6 +28,7 @@ export default function PreEvents() {
         <div class="content demo">
             <div class="card-hghlght demo-card">
                 <img src="\events\volleyball.png" alt="3"></img>
+                <img class="turn" src="\events\footbal.png"></img>
                 <button onClick={routeChange} className='btn' >Register</button>
             </div>
             <div class="card-hghlght demo-card">
