@@ -4,6 +4,7 @@ import HomePage from "./components/Pages/Home-Page/homePage";
 import { Header } from "./components/Header/header";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import About from "./components/Pages/About/about";
+import Hackathon from "./components/Pages/hackathon/hackathon";
 import Login from "./components/Pages/Login/login";
 import Events from "./components/Pages/Events/EventPage";
 import SignUp from "./components/Pages/Sign Up/signup";
@@ -49,6 +50,7 @@ export default function App() {
 					/>
 					<Route exact path="/about" element={<About />} />
 					<Route exact path="/login" element={<Login />} />
+					<Route exact path="/hackmania" element={<Hackathon />} />
 					<Route exact path="/events" element={<Events />} />
 					<Route exact path="/signup" element={<SignUp />} />
 					<Route exact path="/reg" element={<Register />} />

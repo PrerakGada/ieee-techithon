@@ -76,24 +76,27 @@ export function Header() {
 								About
 							</Link>
 						</li>
-						<li className="nav-item">
+						{/*<li className="nav-item">
 							<Link
 								to="/events"
 								className="nav-links"
 								onClick={click ? handleClick : null}
 							>
 								Events
-							</Link>
+							</Link> 
+							}
 						</li>
+						*/}
 						<li className="nav-item">
 							<Link
-								to="/hackathon"
+								to="/hackmania"
 								className="nav-links"
 								onClick={click ? handleClick : null}
 							>
 								Hackathon
 							</Link>
 						</li>
+						
 						{localStorage.token ? (
 							<li className="nav-item">
 								<span
