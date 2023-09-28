@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Goldman&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Goldman&family=Puritan&display=swap');
+
+.section {
+    background-color: black;
+}
+.justify {
+    display: flex;
+    align-items: center;
+}
+
+.heading {
+    padding-top: 0 ;
+    padding-bottom: 0;
+    color: #FFF;
+    font-family: 'Goldman';
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.84px;
+    margin-left: 5px;
+}
+
+.cells {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.cell {
+    width: 1057px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 137, 0, 0.87);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+    margin-top: 31px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.number {
+    color: #FFF;
+    font-family: Puritan;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.24px;
+
+    margin-top: 27px;
+    margin-left: 19px;
+    margin-bottom: 27px;
+}
+
+.question {
+    flex-shrink: 1;
+    color: #FFF;
+    font-family: 'Puritan';
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.54px;
+
+    margin-top: 23px;
+    margin-left: 61px;
+    margin-bottom: 23px;
+}
+
+.downarrow {
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+
+    background: url(../../../../../public/hackmania/faq-down-arrow.svg), lightgray 50% / cover no-repeat;
+}
+
+
+
+
+
+
+
+
+
+
+
+
