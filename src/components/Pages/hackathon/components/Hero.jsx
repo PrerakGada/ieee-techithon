@@ -19,7 +19,7 @@ const Hero = () => {
         </figure>
         <figure className={styles.wrapper}>
           <img
-            className={styles.logo}
+            className={styles.logoTwo}
             src="/hackmania/gdsc.png"
             alt="GDSC Logo"
           />
@@ -57,7 +57,7 @@ const Hero = () => {
                 />
               </svg>
             </figure>
-            <p>
+            <p className={styles.dialogue}>
               Presenting ACE IEEE Techithon's Hack Mania, one of the biggest
               <span className={styles.highlight}>
                 {" "}

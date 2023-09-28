@@ -12,6 +12,7 @@
     mix-blend-mode: color-dodge;
     width: 100svw;
     height: 100svh;
+    filter: blur(4px);
 }
 
 /* Header for logos */
@@ -23,15 +24,26 @@
     padding: 1rem 3rem;
 }
 
+.title {
+    width: 650px;
+    height: auto;
+}
+
 /* Logo */
 .logo {
-    opacity: 1;
+    height: 75px;
+    width: auto;
+}
+
+.logoTwo {
+    padding-top: 0.5rem;
     height: 65px;
+    justify-self: end;
     width: auto;
 }
 
 .highlight {
-    color: #EEB;
+    color: #eeb;
     font-family: Puritan;
     font-size: 20px;
     font-style: normal;
@@ -43,7 +55,7 @@
 .main {
     display: grid;
     place-items: center;
-    padding: 0.5rem 5rem;
+    padding: 0 5rem;
 }
 
 .justify {
@@ -84,7 +96,7 @@
 }
 
 .dateText {
-    color: #EEB;
+    color: #eeb;
     font-size: 35px;
     font-style: normal;
     font-weight: 400;
@@ -95,7 +107,7 @@
 .dateAbsoluteText {
     position: absolute;
     margin: auto;
-    color: #EEB;
+    color: #eeb;
     font-size: 35px;
     font-style: normal;
     font-weight: 400;
@@ -107,19 +119,20 @@
 a {
     text-decoration: none;
     color: inherit;
-    color: #EEB;
+    color: #eeb;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     letter-spacing: 1.05px;
+    cursor: pointer;
 }
 
 .footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 5rem 5rem 0.5rem 5rem;
+    padding: 0 5rem 0.5rem 5rem;
 }
 
 .spreadLine {
@@ -127,4 +140,117 @@ a {
     border-radius: 1rem;
     height: 0.25rem;
     width: 8rem;
+}
+
+/* Media query for medium screens (tablets) */
+@media (max-width: 768px) {
+    .header {
+        padding: 1rem;
+    }
+
+    .logo {
+        height: 60px;
+    }
+
+    .logoTwo {
+        height: 60px;
+    }
+
+    .highlight {
+        font-size: 16px;
+    }
+
+    .main {
+        padding: 0.5rem 2rem;
+    }
+
+    .title {
+        width: 450px;
+        height: auto;
+    }
+
+    .dialogue {
+        font-size: medium;
+    }
+
+    .justify {
+        max-width: 400px;
+    }
+
+    .arrow {
+        height: 4rem;
+    }
+
+    .dateText,
+    .dateAbsoluteText {
+        font-size: 28px;
+    }
+
+    .footer {
+        padding: 1rem 2rem 0.5rem 2rem;
+        /* Adjust padding for medium screens */
+    }
+
+    .spreadLine {
+        width: 6rem;
+    }
+}
+
+/* Media query for small screens (mobile devices) */
+@media (max-width: 480px) {
+    .header {
+        padding: 1rem 0.5rem;
+    }
+
+    .logo {
+        height: 40px;
+    }
+
+    .title {
+        width: 300px;
+        height: auto;
+    }
+
+    .dialogue {
+        font-size: small;
+    }
+
+    .logoTwo {
+        height: 50px;
+    }
+
+    .highlight {
+        font-size: 14px;
+    }
+
+    .main {
+        padding: 0.5rem 1rem;
+    }
+
+    .justify {
+        max-width: 300px;
+    }
+
+    a {
+        font-size: medium;
+    }
+
+    .arrow {
+        height: 3rem;
+        left: 5rem;
+        top: 2rem;
+    }
+
+    .dateText,
+    .dateAbsoluteText {
+        font-size: 24px;
+    }
+
+    .footer {
+        padding: 1rem;
+    }
+
+    .spreadLine {
+        width: 2rem;
+    }
 }

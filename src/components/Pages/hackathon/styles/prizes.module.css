@@ -58,3 +58,64 @@
     background-color: #FFF85A;
     height: 0.25rem;
 }
+
+/* Media query for medium screens (tablets) */
+@media (max-width: 768px) {
+    .container {
+        padding: 0.5rem 2rem;
+        /* Adjust padding for medium screens */
+        min-height: 50vh;
+        /* Adjust min-height for medium screens */
+    }
+
+    .card {
+        min-width: 100%;
+        /* Make the card full-width on medium screens */
+    }
+
+    .spreadLineLeft,
+    .spreadLineRight {
+        display: none;
+        /* Hide the spreadLines on medium screens */
+    }
+}
+
+/* Media query for small screens (mobile devices) */
+@media (max-width: 480px) {
+    .container {
+        padding: 0.5rem 1rem;
+        /* Adjust padding for small screens */
+        min-height: 40vh;
+        /* Adjust min-height for small screens */
+    }
+
+    .card {
+        min-width: 100%;
+        /* Make the card full-width on small screens */
+    }
+
+    .blowImage {
+        height: 1.5rem;
+        /* Adjust blowImage size for small screens */
+        width: 1.5rem;
+        /* Adjust blowImage size for small screens */
+    }
+
+    .trophyImage {
+        height: 4rem;
+        /* Adjust trophyImage size for small screens */
+        width: 4rem;
+        /* Adjust trophyImage size for small screens */
+    }
+
+    .prizeAmount {
+        font-size: 24px;
+        /* Adjust font size for prizeAmount on small screens */
+    }
+
+    .spreadLineLeft,
+    .spreadLineRight {
+        display: none;
+        /* Hide the spreadLines on small screens */
+    }
+}

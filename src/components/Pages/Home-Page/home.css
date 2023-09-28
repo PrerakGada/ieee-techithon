@@ -1,4 +1,5 @@
 @import url('http://fonts.cdnfonts.com/css/helvetica-neue-9');
+
 :root {
   --clr-neon: #00adb5;
 }
@@ -33,7 +34,7 @@ body,
   -webkit-overflow-scrolling: touch;
 }
 
-.scroll > div {
+.scroll>div {
   scroll-snap-align: start;
 }
 
@@ -63,7 +64,7 @@ body {
   align-items: left;
 }
 
-.dot > h1 {
+.dot>h1 {
   -webkit-font-smoothing: auto;
   pointer-events: none;
   color: white;
@@ -83,7 +84,7 @@ body {
   width: 38vw;
 }
 
-.dot > img {
+.dot>img {
   -webkit-font-smoothing: auto;
   pointer-events: none;
   margin: 0;
@@ -94,7 +95,7 @@ body {
   height: 40%;
 }
 
-.dot > .buttons {
+.dot>.buttons {
   display: inline-block;
   flex-direction: row;
   /* padding: 40px; */
@@ -125,6 +126,7 @@ body {
   z-index: 60;
   display: block;
 }
+
 .footer h1 {
   font-family: "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman",
     "HelveticaNeue-Roman", "Helvetica Neue Roman", "TeXGyreHerosRegular",
@@ -184,6 +186,7 @@ body {
   margin: 100px 30px;
   background: transparent;
 }
+
 .button {
   /* display: inline-flex; */
   height: 40px;
@@ -200,6 +203,7 @@ body {
   overflow: hidden;
   font-family: 'Helvetica Neue', sans-serif;
 }
+
 #button-2 {
   position: relative;
   overflow: hidden;
@@ -213,6 +217,7 @@ body {
   top: 5px;
   transition: all 0.35s ease-Out;
 }
+
 #slide {
   /* width: 100%;
   height: 100%; */
@@ -224,6 +229,7 @@ body {
   transition: all 0.35s ease-Out;
   bottom: 0;
 }
+
 #button-2:hover #slide {
   left: 0;
 }
@@ -233,6 +239,7 @@ body {
 
   color: black;
 }
+
 .neon-button::before,
 .neon-button::after {
   pointer-events: none;
@@ -275,12 +282,14 @@ body {
 .neon-button:hover::after {
   opacity: 1;
 }
+
 @media only screen and (max-width: 1280px) {
-  .dot > img {
+  .dot>img {
     width: 50%;
     height: 50%;
   }
-  .dot > h1 {
+
+  .dot>h1 {
     font-size: 2.7em;
     width: 50%;
     text-align: center;
@@ -288,11 +297,12 @@ body {
 }
 
 @media only screen and (max-width: 1000px) {
-  .dot > img {
+  .dot>img {
     width: 70%;
     height: 70%;
   }
-  .dot > h1 {
+
+  .dot>h1 {
     font-size: 3em;
     width: 50%;
     text-align: center;
@@ -301,11 +311,12 @@ body {
 }
 
 @media only screen and (max-width: 800px) {
-  .dot > img {
+  .dot>img {
     width: 80%;
     height: 80%;
   }
-  .dot > h1 {
+
+  .dot>h1 {
     font-size: 3em;
     width: 100%;
     text-align: center;
@@ -313,11 +324,12 @@ body {
 }
 
 @media only screen and (max-width: 700px) {
-  .dot > img {
+  .dot>img {
     width: 90%;
     height: 90%;
   }
-  .dot > h1 {
+
+  .dot>h1 {
     font-size: 2em;
     width: 100%;
     text-align: center;
@@ -325,41 +337,47 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
-  .dot > img {
+  .dot>img {
     width: 100%;
     height: 100%;
   }
-  .dot > h1 {
+
+  .dot>h1 {
     font-size: 2em;
     width: 100%;
     text-align: center;
   }
+
   .neon-button {
     margin: 50px 30px;
   }
 
 }
+
 @media only screen and (max-width: 500px) {
-  .dot > img {
+  .dot>img {
     width: 100%;
     height: 100%;
   }
-  .dot > h1 {
+
+  .dot>h1 {
     font-size: 2em;
     width: 100%;
     text-align: center;
   }
+
   .neon-button {
     margin: 50px 30px;
   }
-  .dot > .buttons{
+
+  .dot>.buttons {
     width: 100%;
   }
 }
 
-.main ul{
-  list-style:none;
-    padding-left:0;
+.main ul {
+  list-style: none;
+  padding-left: 0;
 }
 
 .main {
@@ -376,26 +394,31 @@ body {
   font-weight: 300;
 
 }
+
 .col1 {
   flex: 2;
-  
+
 }
+
 .col2 {
   flex: 2;
 }
+
 .col3 {
   flex: 3;
 }
 
-.col3 img{
+.col3 img {
   height: 70px;
   width: 70px;
 }
 
 .heading {
+  padding-top: 1rem;
   font-size: 16px;
   font-weight: 600;
 }
+
 .main a {
   display: inline-block;
   font-size: 14px;
@@ -405,9 +428,11 @@ body {
   transition: ease 0.5s;
   text-decoration: none;
 }
+
 .main a:hover {
   color: #284dd9;
 }
+
 .partner-logo {
   font-size: 50px;
   color: tomato;
@@ -419,9 +444,11 @@ body {
   justify-content: space-between;
   align-items: center;
 }
+
 .copyright {
   color: gray;
 }
+
 .policy a {
   color: black;
   margin-left: 20px;
@@ -434,42 +461,46 @@ body {
   border-radius: 50%;
   border: solid 2px #d2dcf7;
 }
+
 .c1 {
   top: -600px;
   left: -500px;
 }
+
 .c2 {
   bottom: -600px;
   right: -200px;
 }
+
 .c3 {
   bottom: -400px;
   right: -500px;
 }
 
-.highlights{
+.highlights {
   color: white;
   text-align: center;
 }
 
-.Highlights-div{
+.Highlights-div {
   display: block;
 }
 
-#highlightdiv{
+#highlightdiv {
   display: flex;
   width: 100vw;
   justify-content: center;
   height: fit-content;
 }
 
-#highlightimg{ 
+#highlightimg {
   height: fit-content;
   max-height: 140vh;
-  max-width: 105vw;;
+  max-width: 105vw;
+  ;
   padding-left: 10px;
 }
 
-.Event-cards{
+.Event-cards {
   height: 7`00px;
 }

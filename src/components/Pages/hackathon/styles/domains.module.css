@@ -51,3 +51,75 @@
     text-align: center;
     font-weight: 400;
 }
+
+/* Media query for medium screens (tablets) */
+@media (max-width: 768px) {
+    .container {
+        padding: 0.5rem 2rem;
+        /* Adjust padding for medium screens */
+    }
+
+    .wrapper {
+        padding: 0.5rem;
+        /* Adjust padding for medium screens */
+    }
+
+    .grid {
+        grid-template-columns: 1fr 1fr;
+        /* Change to 2 columns on medium screens */
+    }
+
+    .card {
+        padding: 0.5rem;
+        /* Adjust padding for medium screens */
+    }
+
+    .domainImage {
+        height: 6rem;
+        /* Adjust image size for medium screens */
+        width: 6rem;
+        /* Adjust image size for medium screens */
+    }
+}
+
+/* Media query for small screens (mobile devices) */
+@media (max-width: 480px) {
+    .container {
+        padding: 0.5rem 1rem;
+        /* Adjust padding for small screens */
+    }
+
+    .wrapper {
+        padding: 0.25rem;
+        /* Adjust padding for small screens */
+    }
+
+    .grid {
+        grid-template-columns: 1fr;
+        /* Change to 1 column on small screens */
+        gap: 0.5rem;
+        /* Adjust gap for small screens */
+    }
+
+    .card {
+        padding: 0.25rem;
+        /* Adjust padding for small screens */
+    }
+
+    .domainImage {
+        height: 4rem;
+        /* Adjust image size for small screens */
+        width: 4rem;
+        /* Adjust image size for small screens */
+    }
+
+    .bracket {
+        font-size: 60px;
+        /* Adjust font size for small screens */
+    }
+
+    .domain {
+        font-size: 14px;
+        /* Adjust font size for small screens */
+    }
+}

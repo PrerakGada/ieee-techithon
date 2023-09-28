@@ -31,3 +31,48 @@ p {
     background-color: #FFF85A;
     height: 0.25rem;
 }
+
+/* Media query for medium screens (tablets) */
+@media (max-width: 768px) {
+    .container {
+        padding: 0.5rem 2rem;
+        /* Adjust padding for medium screens */
+    }
+
+    .card {
+        padding: 0.5rem;
+        /* Adjust padding for medium screens */
+    }
+
+    .spreadLine {
+        display: none;
+        /* Hide the spreadLine on medium screens */
+    }
+}
+
+/* Media query for small screens (mobile devices) */
+@media (max-width: 480px) {
+    .container {
+        padding: 0.5rem 1rem;
+        /* Adjust padding for small screens */
+    }
+
+    .card {
+        padding: 0.25rem;
+        /* Adjust padding for small screens */
+    }
+
+    p {
+        font-size: medium;
+    }
+
+    .highlight {
+        padding-top: 0.1rem;
+        /* Adjust padding for small screens */
+    }
+
+    .spreadLine {
+        display: none;
+        /* Hide the spreadLine on small screens */
+    }
+}
