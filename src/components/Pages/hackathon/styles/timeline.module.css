@@ -5,13 +5,10 @@
 
 .justify {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: right;
 }
 
 .heading {
-    justify-content: center;
-    align-items: center;
     color: #FFF;
     font-family: 'Goldman';
     font-size: 28px;
@@ -19,6 +16,5 @@
     font-weight: 400;
     line-height: normal;
     letter-spacing: 0.84px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 5px;
 }
