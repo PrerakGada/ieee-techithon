@@ -1,6 +1,5 @@
 import React from "react";
-import "./styles/hackathon.module.css";
-import Navbar from "./components/Navbar";
+import styles from "./styles/hackathon.module.css";
 import Hero from "./components/Hero";
 import Prizes from "./components/Prizes";
 import FAQs from "./components/Faqs";
@@ -9,8 +8,7 @@ import Timeline from "./components/Timeline";
 
 const Hackathon = () => {
   return (
-    <main>
-      <Navbar />
+    <main className={styles.container}>
       <Hero />
       <Prizes />
       <Timeline />
