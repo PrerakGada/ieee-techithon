@@ -1,5 +1,5 @@
 import React from "react";
-import "./hackathon.module.css";
+import "./styles/hackathon.module.css";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Prizes from "./components/Prizes";
