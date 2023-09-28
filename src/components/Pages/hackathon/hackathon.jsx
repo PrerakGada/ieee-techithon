@@ -7,6 +7,7 @@ import Footer from "./components/Footer";
 import Timeline from "./components/Timeline";
 import About from "./components/About";
 import Domains from "./components/Domains";
+import Sponsers from "./components/Sponsers";
 
 const Hackathon = () => {
   return (
@@ -17,6 +18,7 @@ const Hackathon = () => {
       <Prizes />
       <Timeline />
       <FAQs />
+      <Sponsers />
       <Footer />
     </main>
   );
