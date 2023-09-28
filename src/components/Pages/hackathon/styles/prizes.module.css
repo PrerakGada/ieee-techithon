@@ -1,0 +1,60 @@
+.container {
+    padding: 0.5rem 5rem;
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    position: relative;
+    border: 2px solid #FFF85A;
+    border-radius: 1rem;
+    padding: 1rem;
+    min-width: 618px;
+}
+
+.rows {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.justify {
+    display: grid;
+    place-items: center;
+}
+
+.blowImage {
+    height: 2rem;
+    width: 2rem;
+}
+
+.trophyImage {
+    height: 5rem;
+    width: 5rem;
+}
+
+.prizeAmount {
+    font-size: 30px;
+}
+
+.spreadLineLeft {
+    position: absolute;
+    width: 300%;
+    left: 100%;
+    top: 25vh;
+    background-color: #FFF85A;
+    height: 0.25rem;
+}
+
+.spreadLineRight {
+    position: absolute;
+    width: 300%;
+    right: 100%;
+    top: 25vh;
+    background-color: #FFF85A;
+    height: 0.25rem;
+}

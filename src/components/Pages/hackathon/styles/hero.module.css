@@ -1,4 +1,130 @@
-.img {
+/* Figure - as wrapper */
+.wrapper {
+    padding: 0;
+    margin: 0;
+}
+
+/* Hero section background */
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    mix-blend-mode: color-dodge;
     width: 100svw;
     height: 100svh;
+}
+
+/* Header for logos */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100svw;
+    padding: 1rem 3rem;
+}
+
+/* Logo */
+.logo {
+    opacity: 1;
+    height: 65px;
+    width: auto;
+}
+
+.highlight {
+    color: #EEB;
+    font-family: Puritan;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.6px;
+}
+
+.main {
+    display: grid;
+    place-items: center;
+    padding: 0.5rem 5rem;
+}
+
+.justify {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    max-width: 500px;
+    margin: auto;
+}
+
+/* Center */
+.center {
+    display: grid;
+    place-items: center;
+    position: relative;
+}
+
+.rows {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    padding: 5rem 0;
+}
+
+.arrow {
+    height: 6rem;
+    position: absolute;
+    left: 15rem;
+    top: 1rem;
+}
+
+.dateContainer {
+    position: relative;
+    display: grid;
+    place-items: center;
+}
+
+.dateText {
+    color: #EEB;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.05px;
+}
+
+.dateAbsoluteText {
+    position: absolute;
+    margin: auto;
+    color: #EEB;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.05px;
+}
+
+/* Footer */
+a {
+    text-decoration: none;
+    color: inherit;
+    color: #EEB;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.05px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5rem 5rem 0.5rem 5rem;
+}
+
+.spreadLine {
+    background-color: white;
+    border-radius: 1rem;
+    height: 0.25rem;
+    width: 8rem;
 }
