@@ -1,4 +1,3 @@
-import React from "react";
 import styles from "../styles/hero.module.css";
 
 const Hero = () => {
@@ -6,18 +5,18 @@ const Hero = () => {
     <section className={styles.container}>
       <img
         className={styles.background}
-        src="/hackmania/hero-image.png"
+        src="/hackmania/hero-image.jpg"
         alt="Hero Section Background"
       />
       <header className={styles.header}>
-        <figure className={styles.wrapper}>
+        <figure>
           <img
             className={styles.logo}
             src="/hackmania/ieee.png"
             alt="IEEE Logo"
           />
         </figure>
-        <figure className={styles.wrapper}>
+        <figure>
           <img
             className={styles.logoTwo}
             src="/hackmania/gdsc.png"
@@ -42,7 +41,7 @@ const Hero = () => {
             />
           </figure>
           <div className={styles.justify}>
-            <figure className={styles.wrapper}>
+            <figure>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="22"
@@ -53,7 +52,7 @@ const Hero = () => {
                 <path
                   d="M21.0314 0.82119L15.0646 21.0439L0.534687 5.76511L21.0314 0.82119Z"
                   fill="#FF8900"
-                  fill-opacity="0.866667"
+                  fillOpacity="0.866667"
                 />
               </svg>
             </figure>
@@ -82,6 +81,14 @@ const Hero = () => {
                 <figcaption className={styles.dateAbsoluteText}>6</figcaption>
               </div>
               <h2 className={styles.dateText}>October 2023</h2>
+            </div>
+            <div
+              className="apply-button"
+              data-hackathon-slug="wmn2023"
+              data-button-theme="light"
+              style={{ height: "44px", width: "312px" }}
+            >
+              Apply via Devfolio
             </div>
           </div>
         </section>

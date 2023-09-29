@@ -1,121 +1,51 @@
 import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
 import styled from "styled-components";
-import './Highlights.css';
+import "./Highlights.css";
 export function Sponsers() {
   return (
     <Slider>
       <SlideTrack>
         <Slide>
-          <img
-            src="1.png"
-            height="125"
-            width="125"
-            alt=""
-          />
+          <img src="1.png" height="125" width="125" alt="" />
         </Slide>
         <Slide>
-          <img
-            src="2.png"
-            height="125"
-            width="125"
-            alt=""
-          />
+          <img src="2.png" height="125" width="125" alt="" />
         </Slide>
         <Slide>
-          <img
-            src="3.png"
-            height="125"
-            width="125"
-            alt=""
-          />
+          <img src="3.png" height="125" width="125" alt="" />
         </Slide>
         <Slide>
-          <img
-            src="4.png"
-            height="125"
-            width="125"
-            alt=""
-          />
+          <img src="4.png" height="125" width="125" alt="" />
         </Slide>
         <Slide>
-          <img
-            src="5.png"
-            height="125"
-            width="125"
-            alt=""
-          />
+          <img src="5.png" height="125" width="125" alt="" />
         </Slide>
         <Slide>
-          <img
-            src="6.png"
-            height="125"
-            width="125"
-            alt=""
-          />
+          <img src="6.png" height="125" width="125" alt="" />
         </Slide>
         <Slide>
-          <img
-            src="7.png"
-            height="125"
-            width="125"
-            alt=""
-          />
+          <img src="7.png" height="125" width="125" alt="" />
         </Slide>
         <Slide>
-          <img
-            src="8.png"
-            height="125"
-            width="125"
-            alt=""
-          />
+          <img src="8.png" height="125" width="125" alt="" />
         </Slide>
         <Slide>
-          <img
-            src="1.png"
-            height="125"
-            width="125"
-            alt=""
-          />
+          <img src="1.png" height="125" width="125" alt="" />
         </Slide>
         <Slide>
-          <img
-            src="2.png"
-            height="125"
-            width="125"
-            alt=""
-          />
+          <img src="2.png" height="125" width="125" alt="" />
         </Slide>
         <Slide>
-          <img
-            src="3.png"
-            height="125"
-            width="125"
-            alt=""
-          />
+          <img src="3.png" height="125" width="125" alt="" />
         </Slide>
         <Slide>
-          <img
-            src="4.png"
-            height="125"
-            width="125"
-            alt=""
-          />
+          <img src="4.png" height="125" width="125" alt="" />
         </Slide>
         <Slide>
-          <img
-            src="5.png"
-            height="200"
-            width="200"
-            alt=""
-          />
+          <img src="5.png" height="200" width="200" alt="" />
         </Slide>
         <Slide>
-          <img
-            src="6.png"
-            height="200"
-            width="200"
-            alt=""
-          />
+          <img src="6.png" height="200" width="200" alt="" />
         </Slide>
       </SlideTrack>
     </Slider>
@@ -125,38 +55,40 @@ export function Sponsers() {
 export function Footer() {
   return (
     <>
-      <div class="main">
-        <div class="col1">
-          <p class="heading">Developed By</p>
+      <div className="main">
+        <div className="col1">
+          <p className="heading">Developed By</p>
           <ul>
             <li>
               Prerak Gada
-              <a href="https://www.linkedin.com/in/prerakgada/" ><FaLinkedin/></a>
-              <a href="https://www.instagram.com/prerakgada/" ><FaInstagram/></a>
-              <a href="https://github.com/PrerakGada/" ><FaGithub/></a>
+              <a href="https://www.linkedin.com/in/prerakgada/">
+                <FaLinkedin />
+              </a>
+              <a href="https://www.instagram.com/prerakgada/">
+                <FaInstagram />
+              </a>
+              <a href="https://github.com/PrerakGada/">
+                <FaGithub />
+              </a>
             </li>
           </ul>
         </div>
 
-        <div class="col2">
-          <p class="heading">Contact Us</p>
+        <div className="col2">
+          <p className="heading">Contact Us</p>
           <ul>
             <li>
               <a href="#">Ashlesha More</a>
             </li>
-            <li>
-              Phone: +91 9664078880
-            </li>
+            <li>Phone: +91 9664078880</li>
             <li>
               <a href="#">Harsh Nikharge </a>
             </li>
-            <li>
-              Phone: +91 7900122449
-            </li>
+            <li>Phone: +91 7900122449</li>
           </ul>
         </div>
-        <div class="col3">
-          {/* <p class="heading">Presented By</p> */}
+        <div className="col3">
+          {/* <p className="heading">Presented By</p> */}
           <ul>
             <li>
               <img src="ACE.png"></img>
@@ -166,12 +98,10 @@ export function Footer() {
             </li>
           </ul>
         </div>
-
       </div>
 
-      <div class="bottom">
-        <p class="copyright">© 2020 IEEE Techithon. All rights reserved.</p>
-
+      <div className="bottom">
+        <p className="copyright">© 2020 IEEE Techithon. All rights reserved.</p>
       </div>
     </>
   );

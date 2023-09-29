@@ -14,11 +14,7 @@ const Sponsers = () => {
             viewBox="0 0 93 6"
             fill="none"
           >
-            <path
-              d="M-0.0107756 3L92.127 3"
-              stroke="#FFF85A"
-              stroke-width="5"
-            />
+            <path d="M-0.0107756 3L92.127 3" stroke="#FFF85A" strokeWidth="5" />
           </svg>
           <div className={styles.heading}>Hackathon Sponsers</div>
           <svg
@@ -29,11 +25,7 @@ const Sponsers = () => {
             viewBox="0 0 93 6"
             fill="none"
           >
-            <path
-              d="M-0.0107756 3L92.127 3"
-              stroke="#FFF85A"
-              stroke-width="5"
-            />
+            <path d="M-0.0107756 3L92.127 3" stroke="#FFF85A" strokeWidth="5" />
           </svg>
         </div>
       </div>
@@ -47,11 +39,7 @@ const Sponsers = () => {
             viewBox="0 0 93 6"
             fill="none"
           >
-            <path
-              d="M-0.0107756 3L92.127 3"
-              stroke="#FFF85A"
-              stroke-width="5"
-            />
+            <path d="M-0.0107756 3L92.127 3" stroke="#FFF85A" strokeWidth="5" />
           </svg>
           <div className={styles.heading}>Sponsers</div>
           <svg
@@ -62,11 +50,7 @@ const Sponsers = () => {
             viewBox="0 0 93 6"
             fill="none"
           >
-            <path
-              d="M-0.0107756 3L92.127 3"
-              stroke="#FFF85A"
-              stroke-width="5"
-            />
+            <path d="M-0.0107756 3L92.127 3" stroke="#FFF85A" strokeWidth="5" />
           </svg>
         </div>
       </div>
@@ -80,11 +64,7 @@ const Sponsers = () => {
             viewBox="0 0 93 6"
             fill="none"
           >
-            <path
-              d="M-0.0107756 3L92.127 3"
-              stroke="#FFF85A"
-              stroke-width="5"
-            />
+            <path d="M-0.0107756 3L92.127 3" stroke="#FFF85A" strokeWidth="5" />
           </svg>
           <div className={styles.heading}>Other Sponsers</div>
           <svg
@@ -95,11 +75,7 @@ const Sponsers = () => {
             viewBox="0 0 93 6"
             fill="none"
           >
-            <path
-              d="M-0.0107756 3L92.127 3"
-              stroke="#FFF85A"
-              stroke-width="5"
-            />
+            <path d="M-0.0107756 3L92.127 3" stroke="#FFF85A" strokeWidth="5" />
           </svg>
         </div>
       </div>

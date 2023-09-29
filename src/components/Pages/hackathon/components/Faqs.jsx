@@ -54,11 +54,7 @@ const FAQs = () => {
             viewBox="0 0 93 6"
             fill="none"
           >
-            <path
-              d="M-0.0107756 3L92.127 3"
-              stroke="#FFF85A"
-              stroke-width="5"
-            />
+            <path d="M-0.0107756 3L92.127 3" stroke="#FFF85A" strokeWidth="5" />
           </svg>
           <div className={styles.heading}>FAQ's</div>
           <svg
@@ -69,11 +65,7 @@ const FAQs = () => {
             viewBox="0 0 93 6"
             fill="none"
           >
-            <path
-              d="M-0.0107756 3L92.127 3"
-              stroke="#FFF85A"
-              stroke-width="5"
-            />
+            <path d="M-0.0107756 3L92.127 3" stroke="#FFF85A" strokeWidth="5" />
           </svg>
         </div>
 

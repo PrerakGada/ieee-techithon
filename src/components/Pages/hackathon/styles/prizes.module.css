@@ -3,6 +3,7 @@
     min-height: 60vh;
     display: flex;
     align-items: center;
+    background-color: black;
     justify-content: center;
 }
 

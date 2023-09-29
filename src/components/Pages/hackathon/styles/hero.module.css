@@ -1,18 +1,23 @@
 /* Figure - as wrapper */
-.wrapper {
+figure {
     padding: 0;
     margin: 0;
 }
 
+.container {
+    position: relative;
+    min-height: 100svh;
+}
+
 /* Hero section background */
 .background {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     mix-blend-mode: color-dodge;
     width: 100svw;
     height: 100svh;
-    filter: blur(4px);
+    object-fit: cover;
 }
 
 /* Header for logos */
@@ -85,7 +90,7 @@
 .arrow {
     height: 6rem;
     position: absolute;
-    left: 15rem;
+    left: 10rem;
     top: 1rem;
 }
 
@@ -129,6 +134,10 @@ a {
 }
 
 .footer {
+    position: absolute;
+    bottom: 3rem;
+    left: 0;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
