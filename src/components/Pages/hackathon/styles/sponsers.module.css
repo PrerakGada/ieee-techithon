@@ -24,6 +24,25 @@
     margin-right: 20px;
 }
 
+.grid {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    display: grid;
+    grid-template-rows: 275px 275px 275px;
+    grid-template-columns: 260px 260px 260px;
+    justify-content: center;
+}
+
+.sponser {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #AAA;
+    margin: 10px;
+    border-radius: 20px;
+    border: 1px solid #FFFA81;
+}
+
 /* Media query for medium screens (tablets) */
 @media (max-width: 768px) {
     .section {
