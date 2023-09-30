@@ -3,11 +3,11 @@ import styles from "../styles/hero.module.css";
 const Hero = () => {
   return (
     <section className={styles.container}>
-      <img
+      {/* <img
         className={styles.background}
         src="/hackmania/hero-image.jpg"
         alt="Hero Section Background"
-      />
+      /> */}
       <header className={styles.header}>
         <figure>
           <img
@@ -75,10 +75,10 @@ const Hero = () => {
               <div className={styles.dateContainer}>
                 <img
                   className={styles.polygon}
-                  src="/hackmania/polygon.svg"
+                  src="/hackmania/polygon.png"
                   alt="Date Background Polygon"
                 />
-                <figcaption className={styles.dateAbsoluteText}>6</figcaption>
+                {/* <figcaption className={styles.dateAbsoluteText}>6</figcaption> */}
               </div>
               <h2 className={styles.dateText}>October 2023</h2>
             </div>

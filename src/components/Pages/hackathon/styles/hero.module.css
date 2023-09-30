@@ -107,6 +107,7 @@ figure {
     font-weight: 400;
     line-height: normal;
     letter-spacing: 1.05px;
+    margin-top: 0px;
 }
 
 .dateAbsoluteText {
@@ -262,4 +263,9 @@ a {
     .spreadLine {
         width: 2rem;
     }
+}
+
+path{
+    stroke: aliceblue;
+    stroke-width: 1px;
 }
