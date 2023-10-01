@@ -6,7 +6,7 @@ import FAQs from "./components/Faqs";
 import Timeline from "./components/Timeline";
 import About from "./components/About";
 import Domains from "./components/Domains";
-import Sponsers from "./components/Sponsers";
+import Sponsors from "./components/Sponsors";
 import Footer from "./components/Footer";
 
 const Hackathon = () => {
@@ -21,7 +21,7 @@ const Hackathon = () => {
         <Prizes />
         <Timeline />
         <FAQs />
-        <Sponsers />
+        <Sponsors />
         <Footer />
       </figure>
     </main>

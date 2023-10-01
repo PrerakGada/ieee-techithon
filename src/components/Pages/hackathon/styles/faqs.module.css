@@ -83,10 +83,6 @@
 
 /* Media query for medium screens (tablets) */
 @media (max-width: 768px) {
-    .section {
-        padding-top: 0.5rem 2rem;
-    }
-
     .heading {
         font-size: 24px;
         /* Adjust font size for medium screens */
@@ -129,10 +125,6 @@
 
 /* Media query for small screens (mobile devices) */
 @media (max-width: 480px) {
-
-    .section {
-        padding-top: 0.5rem 2rem;
-    }
 
     .heading {
         font-size: 20px;
