@@ -1,9 +1,11 @@
-import { Suspense, useEffect, useRef } from "react";
-import { Canvas } from "@react-three/fiber";
 import { CameraShake, OrbitControls } from "@react-three/drei";
+import { Canvas } from "@react-three/fiber";
+import { Bloom, EffectComposer } from "@react-three/postprocessing";
 import { KernelSize } from "postprocessing";
-import { EffectComposer, Bloom } from "@react-three/postprocessing";
+import { Suspense, useEffect } from "react";
+import { Header } from "./../../Header/header";
 import { Model } from "./model";
+
 import "./home.css";
 import Overlay from "./overlay";
 
@@ -36,6 +38,7 @@ export default function HomePage(props) {
 
 	return (
 		<>
+		<Header />
 			<div id="container">
 				<Canvas
 					className="canvas"

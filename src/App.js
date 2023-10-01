@@ -1,15 +1,15 @@
-import { useRef, useEffect } from "react";
-import "./styles.css";
-import HomePage from "./components/Pages/Home-Page/homePage";
+import { useRef } from "react";
+import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import { Header } from "./components/Header/header";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import About from "./components/Pages/About/about";
-import Hackathon from "./components/Pages/hackathon/hackathon";
-import Login from "./components/Pages/Login/login";
 import Events from "./components/Pages/Events/EventPage";
-import SignUp from "./components/Pages/Sign Up/signup";
+import HomePage from "./components/Pages/Home-Page/homePage";
+import Login from "./components/Pages/Login/login";
 import Register from "./components/Pages/Register/Register";
+import SignUp from "./components/Pages/Sign Up/signup";
+import Hackathon from "./components/Pages/hackathon/hackathon";
 import Ticket from "./components/Ticket";
+import "./styles.css";
 window.mobileCheck = function () {
   let isMobile = false;
   if (

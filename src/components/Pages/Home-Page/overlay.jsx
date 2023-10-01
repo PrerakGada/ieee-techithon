@@ -1,5 +1,4 @@
 import React, { forwardRef } from "react";
-import RegisgteredEventcarousel from "./../../Cards/RegisteredEventCards";
 import Countdown from "./../../Comming soon/CommingSoon";
 import PreEvents from "./Highlights";
 import { Footer, Sponsers } from "./footer";
@@ -35,7 +34,7 @@ const Overlay = forwardRef(({ scroll }, ref) => (
 					</div>
 				</div>
 			</div>
-			{localStorage.token && (
+			{/* {localStorage.token && (
 				<>
 					<div className="Event-cards">
 						<div className="events">
@@ -44,7 +43,7 @@ const Overlay = forwardRef(({ scroll }, ref) => (
 						</div>
 					</div>
 				</>
-			)}
+			)} */}
 			{/* <div className="Event-cards">
 				<div className="events">
 					<h1 className="event-link">Events</h1>

@@ -1,0 +1,191 @@
+/* .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(44, 43, 43);
+    color: #fff;
+    opacity: 0.8;
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    top: 0px;
+    padding: 0 30px;
+    z-index: 60;
+  }
+  
+  
+  .navbar ul {
+    display: flex;
+  }
+   
+  .navbar li {
+    list-style-type: none;
+    padding: 10px 
+  } 
+
+  .navbar li:hover{
+    background-color: rgb(80, 79, 79);
+  } 
+
+  
+  .navbar a {
+    text-decoration: none;
+    font-size: 25px;
+    color: #fff;
+    display: block;
+  }
+  .navbar .log {
+    font-weight: 400;
+  } 
+  
+  .navbar h1{
+    font-size: 30px;
+  } 
+  */
+
+@media print {
+	.navbar {
+		visibility: hidden;
+	}
+}
+
+.navbar {
+	background-color: #393e46;
+	opacity: 0.8;
+	height: 80px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.2rem;
+	top: 0;
+	z-index: 80;
+	position: absolute;
+	width: 100%;
+}
+
+.nav-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 80px;
+	padding-left: 30px;
+	z-index: 80;
+	/* max-width: 1500px; */
+}
+
+.nav-container h1 {
+	font-family: "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman",
+		"HelveticaNeue-Roman", "Helvetica Neue Roman", "TeXGyreHerosRegular",
+		"Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+}
+
+.main-container {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0, 0, 0, 0.3);
+}
+
+.nav-logo {
+	color: #ffffff;
+	align-items: center;
+	margin-left: 5px;
+	cursor: pointer;
+	text-decoration: none;
+	font-size: 2rem;
+	flex-grow: 1;
+	padding: 10px;
+}
+
+.nav-menu {
+	display: flex;
+	list-style: none;
+	text-align: center;
+	margin-right: 2rem;
+	z-index: 80;
+}
+
+.nav-links {
+	color: #fff;
+	text-decoration: none;
+	padding: 0.5rem 1rem;
+	height: 100%;
+	border-bottom: 3px solid transparent;
+}
+.fa-code {
+	margin-left: 1rem;
+}
+
+.nav-item {
+	line-height: 40px;
+	margin-right: 1rem;
+	background-color: transparent;
+}
+
+.nav-item:after {
+	content: "";
+	display: block;
+	height: 3px;
+	width: 0;
+	background: transparent;
+	transition: width 0.7s ease, background-color 0.5s ease;
+}
+
+.nav-item:hover:after {
+	width: 100%;
+	background: linear-gradient(to right, #ff2060, cyan);
+}
+/*   
+  .nav-item.active {
+    color: #ffffff;
+    border: 1px solid #ffffff;
+  } */
+
+.nav-icon {
+	display: none;
+}
+
+@media screen and (max-width: 740px) {
+	.nav-menu {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		border-top: 1pxsolid #fff;
+		position: absolute;
+		top: 50px;
+		left: -110%;
+		opacity: 1;
+		transition: all 0.5s ease;
+	}
+
+	.nav-menu.active {
+		background: #242424;
+		left: 0px;
+		opacity: 1;
+		transition: all 0.5s ease;
+		z-index: 1;
+	}
+	.nav-item .active {
+		color: #ffffff;
+		border: none;
+	}
+	.nav-links {
+		padding: 1.5rem;
+		width: 100%;
+		display: table;
+	}
+
+	.nav-icon {
+		display: block;
+		position: absolute;
+		top: 0;
+		right: 0;
+		transform: translate(-100%, 60%);
+		font-size: 1.8rem;
+		cursor: pointer;
+		color: #ffffff;
+	}
+}

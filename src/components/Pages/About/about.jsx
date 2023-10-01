@@ -1,7 +1,9 @@
 import React from "react";
+import { Header } from "./../../Header/header";
 import AboutUsCard from "./AboutUsCard";
 import "./about.css";
 import { AboutData } from "./aboutData";
+
 
 const Top = AboutData.filter((EventsData) => EventsData.category === "top");
 const Head = AboutData.filter((EventsData) => EventsData.category === "head");
@@ -47,6 +49,7 @@ function AssitCards() {
 export default function About() {
   return (
     <>
+    <Header />
       <div className="about-ieee">
         <div className="boxone">
           <img
