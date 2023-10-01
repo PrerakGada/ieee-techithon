@@ -10,7 +10,7 @@ import Sponsers from "./components/Sponsers";
 
 const Hackathon = () => {
   return (
-    <main className={styles.container}>
+    <main id="hackathon" className={styles.container}>
       <div className={styles.gradientbg}>
 
       <Hero />

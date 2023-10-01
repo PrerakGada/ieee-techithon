@@ -71,11 +71,9 @@ const Sponsers = () => {
               </defs>
             </svg>
           </div>
-
         </div>
-
       </div>
-      <div className={styles.section}>
+      {/* <div className={styles.section}>
         <div className={styles.justify}>
           <svg
             className={styles.linesvg}
@@ -124,7 +122,7 @@ const Sponsers = () => {
             <path d="M-0.0107756 3L92.127 3" stroke="#FFF85A" strokeWidth="5" />
           </svg>
         </div>
-      </div>
+      </div> */}
     </>
   );
 };

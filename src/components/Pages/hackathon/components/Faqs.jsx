@@ -7,23 +7,23 @@ const FAQs = () => {
   const [faqs, setFaqs] = useState([
     {
       question:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pharetra lorem eu dolor rhoncus, at scelerisque ligula gravida.",
+        "What would be the mode of the hackathon?",
       answer:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pharetra lorem eu dolor rhoncus, at scelerisque ligula gravida.",
+        "CodeShastra 9.0 will be conducted in an ______ format. The event will be hosted ________ at Atharv College of Engineering in Malad West, Mumbai, India, with an online presence on Discord.",
       open: true,
     },
     {
       question:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pharetra lorem eu dolor rhoncus, at scelerisque ligula gravida.",
+        "What if I have never been in a hackathon before?",
       answer:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pharetra lorem eu dolor rhoncus, at scelerisque ligula gravida.",
+        "Hackmania aims to give beginners a headstart by providing them mentors who are from the industry to guide them. So that they can learn while brainstorming ideas. We've called for mentors👨🏻‍🏫 from Industry to help you and also judge your projects . So, first timers don't have to worry as their lack of experience won't be an issue in their road to victory . Plus, there is always a first time for everything ! We promise you a fun and fruitful experience.",
       open: false,
     },
     {
       question:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pharetra lorem eu dolor rhoncus, at scelerisque ligula gravida.",
+        "What technology can I use?",
       answer:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pharetra lorem eu dolor rhoncus, at scelerisque ligula gravida.",
+        "Participants can use any technologies as long as its open source. Intellectual Property (IP) of the idea belongs to the team members and their college/institution. The organizers, sponsors, and any other parties are not liable for any disputes that may arise out of the same.",
       open: false,
     },
   ]);

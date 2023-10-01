@@ -97,16 +97,24 @@ const Hero = () => {
               <h2 className={styles.dateText}>October 2023</h2>
             </div>
             <div
-              className="apply-button"
+              class={styles["apply-button"]}
               data-hackathon-slug="hackmania"
-              data-button-theme="light"
+              data-button-theme="dark"
               style={{ height: '44px', width: '312px' }}
             ></div>
+
+            {/* <a
+              href="https://hackmania.devfolio.co/">
+              <img
+                className={styles.applyButton}
+                src="/hackmania/applywithdevfolio.png">
+              </img>
+            </a> */}
 
           </div>
         </section>
       </main>
-      <footer className={styles.footer}>
+      {/* <footer className={styles.footer}>
         <a href="#about">About</a>
         <div className={styles.spreadLine}></div>
         <a href="#domains">Domains</a>
@@ -114,7 +122,7 @@ const Hero = () => {
         <a href="#prizes">Prizes</a>
         <div className={styles.spreadLine}></div>
         <a href="#sponsors">Sponsors</a>
-      </footer>
+      </footer> */}
     </section>
   );
 };
