@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../styles/sponsers.module.css";
+import styles from "../styles/timeline.module.css";
 
 const Timeline = () => {
   return (

@@ -1,11 +1,12 @@
 .section {
     padding-top: 1rem;
-    height: 100svh;
+    height: 30vh;
 }
 
 .justify {
     display: flex;
-    align-items: right;
+    align-items: center;
+    justify-content: center;
 }
 
 .heading {

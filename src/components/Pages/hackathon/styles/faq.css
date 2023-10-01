@@ -61,6 +61,7 @@
   width: 30px;
   height: 30px;
   transition: all 0.2s ease;
+  margin-right: 1rem;
 }
 
 .faqs .faq .faq-answer {

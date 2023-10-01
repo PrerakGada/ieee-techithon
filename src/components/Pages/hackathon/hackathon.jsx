@@ -7,6 +7,7 @@ import Timeline from "./components/Timeline";
 import About from "./components/About";
 import Domains from "./components/Domains";
 import Sponsers from "./components/Sponsers";
+import Footer from "./components/Footer";
 
 const Hackathon = () => {
   return (
@@ -21,6 +22,7 @@ const Hackathon = () => {
         <Timeline />
         <FAQs />
         <Sponsers />
+        <Footer />
       </figure>
     </main>
   );
