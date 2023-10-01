@@ -36,3 +36,9 @@ body,
 ::-webkit-scrollbar {
   display: none;
 }
+
+
+#apply-button-container {
+  position: relative;
+  z-index: 9999999;
+}

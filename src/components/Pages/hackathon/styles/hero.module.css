@@ -94,12 +94,14 @@ figure {
     top: 1rem;
 }
 
-.applybutton {
+.applyButton {
     position: relative;
+    z-index: 9999999;
+    border-radius: 0.5rem;
     height: 44px; 
     width: 312px;
-    z-index: 999999;
 }
+
 
 .dateContainer {
     position: relative;
@@ -166,7 +168,7 @@ a {
 }
 
 /* Media query for medium screens (tablets) */
-@media (max-width: 768px) {
+@media (max-width: 820px) {
     .header {
         padding: 1rem;
     }
@@ -216,6 +218,16 @@ a {
 
     .spreadLine {
         width: 6rem;
+    }
+
+    .applyButton {
+        /* position: absolute; */
+        height: 45px;
+        width: 280px;
+        z-index: 9999999;
+        /* bottom : 3rem; */
+        /* margin: 0 auto; */
+        margin-top: 20rem;
     }
 }
 
@@ -275,6 +287,16 @@ a {
 
     .spreadLine {
         width: 2rem;
+    }
+
+    .applyButton {
+        /* position: absolute; */
+        height: 45px;
+        width: 280px;
+        z-index: 9999999;
+        /* bottom : 3rem; */
+        /* margin: 0 auto; */
+        margin-top: 6rem;
     }
 }
 

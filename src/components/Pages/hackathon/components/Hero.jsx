@@ -96,20 +96,24 @@ const Hero = () => {
               </div>
               <h2 className={styles.dateText}>October 2023</h2>
             </div>
+            {/* <container id="apply-button-container">
             <div
-              class={styles["apply-button"]}
+              class="apply-button"
               data-hackathon-slug="hackmania"
-              data-button-theme="dark"
+              data-button-theme="light"
               style={{ height: '44px', width: '312px' }}
             ></div>
+            </container> */}
 
-            {/* <a
-              href="https://hackmania.devfolio.co/">
+            <a
+              href="https://hackmania.devfolio.co/"
+              target="_blank"
+              >
               <img
                 className={styles.applyButton}
                 src="/hackmania/applywithdevfolio.png">
               </img>
-            </a> */}
+            </a>
 
           </div>
         </section>
