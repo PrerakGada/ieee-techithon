@@ -8,7 +8,7 @@ const FAQs = () => {
     {
       question: "What would be the mode of the hackathon?",
       answer:
-        "CodeShastra 9.0 will be conducted in an ______ format. The event will be hosted ________ at Atharv College of Engineering in Malad West, Mumbai, India, with an online presence on Discord.",
+        "Hackmania will be conducted in an hybrid format. The event will be hosted both at Atharva College of Engineering in Malad West, Mumbai, and online on Discord.",
       open: true,
     },
     {
@@ -21,6 +21,18 @@ const FAQs = () => {
       question: "What technology can I use?",
       answer:
         "Participants can use any technologies as long as its open source. Intellectual Property (IP) of the idea belongs to the team members and their college/institution. The organizers, sponsors, and any other parties are not liable for any disputes that may arise out of the same.",
+      open: false,
+    },
+    {
+      question: "Will my team be alloted a mentor?",
+      answer:
+        "Yes, there would be a help desk to ask the mentors. A mentor would be reaching your room in sometime.",
+      open: false,
+    },
+    {
+      question: "What is the selection criteria?",
+      answer:
+        "The selection criteria is based on the idea, implementation, and presentation. The judges will be evaluating the projects based on the same.",
       open: false,
     },
   ]);
