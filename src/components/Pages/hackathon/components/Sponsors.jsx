@@ -5,27 +5,9 @@ const Sponsors = () => {
   return (
     <div className={styles.section}>
       <div className={styles.justify}>
-        <svg
-          className={styles.linesvg}
-          xmlns="http://www.w3.org/2000/svg"
-          width="70"
-          height="6"
-          viewBox="0 0 93 6"
-          fill="none"
-        >
-          <path d="M-0.0107756 3L92.127 3" stroke="#FFF85A" strokeWidth="5" />
-        </svg>
+      <img src="/hackmania/line.svg" alt="line" />
         <div className={styles.heading}>Hackathon Sponsors</div>
-        <svg
-          className={styles.linesvg}
-          xmlns="http://www.w3.org/2000/svg"
-          width="93"
-          height="6"
-          viewBox="0 0 93 6"
-          fill="none"
-        >
-          <path d="M-0.0107756 3L92.127 3" stroke="#FFF85A" strokeWidth="5" />
-        </svg>
+        <img src="/hackmania/line.svg" alt="line" />
       </div>
       <div className={styles.grid}>
         <div className={styles.sponser}>
@@ -34,11 +16,16 @@ const Sponsors = () => {
           </figure>
           <div className={styles.card}>
             <figure>
+              <a href="https://devfolio.co/" 
+              target="_blank"
+              >
               <img
+                title="Devfolio"
                 className={styles.cardImage}
                 src="/hackmania/devfolio.png"
                 alt="Devfolio Logo"
               />
+              </a>
             </figure>
             <div className={styles.cardFooter}></div>
           </div>
@@ -49,11 +36,16 @@ const Sponsors = () => {
           </figure>
           <div className={styles.card}>
             <figure>
+            <a href="https://polygon.technology/"
+                target="_blank" 
+              >
               <img
+                title="Polygon"
                 className={styles.cardImage}
                 src="/hackmania/polygon-logo.jpg"
                 alt="Polygon Logo"
               />
+              </a>
             </figure>
             <div className={styles.cardFooter}></div>
           </div>
@@ -64,11 +56,16 @@ const Sponsors = () => {
           </figure>
           <div className={styles.card}>
             <figure>
+              <a href="https://replit.com/"
+                target="_blank" 
+              >
               <img
+                title="Replit"
                 className={styles.cardImage}
-                src="/hackmania/ieee.png"
+                src="/hackmania/replit.png"
                 alt="Empty Logo"
               />
+              </a>
             </figure>
             <div className={styles.cardFooter}></div>
           </div>

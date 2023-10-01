@@ -54,27 +54,9 @@ const FAQs = () => {
   return (
     <div className={styles.section}>
       <div className={styles.justify}>
-        <svg
-          className={styles.linesvg}
-          xmlns="http://www.w3.org/2000/svg"
-          width="93"
-          height="6"
-          viewBox="0 0 93 6"
-          fill="none"
-        >
-          <path d="M-0.0107756 3L92.127 3" stroke="#FFF85A" strokeWidth="5" />
-        </svg>
+        <img src="/hackmania/line.svg" alt="line" />
         <div className={styles.heading}>FAQ's</div>
-        <svg
-          className={styles.linesvg}
-          xmlns="http://www.w3.org/2000/svg"
-          width="93"
-          height="6"
-          viewBox="0 0 93 6"
-          fill="none"
-        >
-          <path d="M-0.0107756 3L92.127 3" stroke="#FFF85A" strokeWidth="5" />
-        </svg>
+        <img src="/hackmania/line.svg" alt="line" />
       </div>
 
       <div className={"faqs"}>
