@@ -4,24 +4,18 @@ import { useEffect } from "react";
 
 const Hero = () => {
   useEffect(() => {
-    const script = document.createElement('script');
-    script.src = 'https://apply.devfolio.co/v2/sdk.js';
+    const script = document.createElement("script");
+    script.src = "https://apply.devfolio.co/v2/sdk.js";
     script.async = true;
     script.defer = true;
     document.body.appendChild(script);
     return () => {
       document.body.removeChild(script);
-    }
+    };
   }, []);
 
-
   return (
-    <section className={styles.container}>
-      {/* <img
-        className={styles.background}
-        src="/hackmania/hero-image.jpg"
-        alt="Hero Section Background"
-      /> */}
+    <container className={styles.container}>
       <header className={styles.header}>
         <figure>
           <img
@@ -46,7 +40,7 @@ const Hero = () => {
             alt="IEEE Edition"
           />
         </figure>
-        <section>
+        <div>
           <figure>
             <img
               className={styles.title}
@@ -92,42 +86,25 @@ const Hero = () => {
                   src="/hackmania/polygon.png"
                   alt="Date Background Polygon"
                 />
-                {/* <figcaption className={styles.dateAbsoluteText}>6</figcaption> */}
               </div>
               <h2 className={styles.dateText}>October 2023</h2>
             </div>
-            {/* <container id="apply-button-container">
-            <div
-              class="apply-button"
-              data-hackathon-slug="hackmania"
-              data-button-theme="light"
-              style={{ height: '44px', width: '312px' }}
-            ></div>
-            </container> */}
 
             <a
               href="https://hackmania.devfolio.co/"
               target="_blank"
-              >
+              rel="noreferrer"
+            >
               <img
+                alt="devfolio-button"
                 className={styles.applyButton}
-                src="/hackmania/applywithdevfolio.png">
-              </img>
+                src="/hackmania/applywithdevfolio.png"
+              ></img>
             </a>
-
           </div>
-        </section>
+        </div>
       </main>
-      {/* <footer className={styles.footer}>
-        <a href="#about">About</a>
-        <div className={styles.spreadLine}></div>
-        <a href="#domains">Domains</a>
-        <div className={styles.spreadLine}></div>
-        <a href="#prizes">Prizes</a>
-        <div className={styles.spreadLine}></div>
-        <a href="#sponsors">Sponsors</a>
-      </footer> */}
-    </section>
+    </container>
   );
 };
 

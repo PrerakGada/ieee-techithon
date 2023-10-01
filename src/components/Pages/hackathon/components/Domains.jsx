@@ -3,8 +3,8 @@ import styles from "../styles/domains.module.css";
 
 const Domains = () => {
   return (
-    <section className={styles.container}>
-      <section className={styles.wrapper}>
+    <div className={styles.container}>
+      <div className={styles.wrapper}>
         <h2 id="domains">Domains</h2>
         <div className={styles.grid}>
           <article className={styles.card}>
@@ -92,8 +92,8 @@ const Domains = () => {
             <h3 className={styles.domain}>[ IoT ]</h3>
           </article>
         </div>
-      </section>
-    </section>
+      </div>
+    </div>
   );
 };
 

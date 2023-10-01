@@ -3,7 +3,7 @@ import styles from "../styles/prizes.module.css";
 
 const Prizes = () => {
   return (
-    <section className={styles.container}>
+    <div className={styles.container}>
       <article className={styles.card}>
         <div className={styles.spreadLineLeft}></div>
         <h2 id="prizes">Prizes</h2>
@@ -24,7 +24,7 @@ const Prizes = () => {
         </div>
         <div className={styles.spreadLineRight}></div>
       </article>
-    </section>
+    </div>
   );
 };
 

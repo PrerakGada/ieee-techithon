@@ -1,26 +1,25 @@
 .container {
-  overflow: hidden;
   color: white;
-  /* background-color: ; */
-  
+  max-width: 100svw;
+  overflow-x: hidden;
 }
 
-.mainbg{
+.mainbg {
   background-image: url(../../../../../public/hackmania/gradientbg.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
+  object-fit: cover;
   background-position: center;
+  overflow: hidden;
   background-attachment: fixed;
   background-color: black;
-  /* background-blend-mode: normal; */
-  /* opacity: 0.3 !important; */
 }
 
-.gradientbg{
+.gradientbg {
   background-image: url(../../../../../public/hackmania/hero-image.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  min-height: 100svh;
+  object-fit: cover;
 }
-
-

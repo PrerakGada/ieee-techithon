@@ -3,7 +3,7 @@ import styles from "../styles/about.module.css";
 
 const About = () => {
   return (
-    <section className={styles.container}>
+    <div className={styles.container}>
       <article className={styles.card}>
         <div className={styles.spreadLine}></div>
         <h2 id="about">About</h2>
@@ -20,7 +20,7 @@ const About = () => {
           </span>
         </p>
       </article>
-    </section>
+    </div>
   );
 };
 

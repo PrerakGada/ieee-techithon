@@ -1,6 +1,5 @@
 .section {
-    padding-top: 1rem;
-    /* background-color: black; */
+    padding: 0.5rem 5rem;
 }
 
 .justify {
@@ -85,8 +84,7 @@
 /* Media query for medium screens (tablets) */
 @media (max-width: 768px) {
     .section {
-        padding-top: 1rem;
-        background-color: #333;
+        padding-top: 0.5rem 2rem;
     }
 
     .heading {
@@ -131,10 +129,7 @@
 
 /* Media query for small screens (mobile devices) */
 @media (max-width: 480px) {
-    .section {
-        padding-top: 1rem;
-        background-color: #222;
-    }
+
 
     .heading {
         font-size: 20px;

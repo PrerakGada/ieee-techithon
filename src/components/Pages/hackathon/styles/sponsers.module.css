@@ -1,6 +1,5 @@
 .section {
     padding-top: 1rem;
-    /* background-color: black; */
     height: 50vh;
 }
 
@@ -28,7 +27,6 @@
     margin-top: 4rem;
     margin-bottom: 4rem;
     display: grid;
-    grid-template-rows: 275px 275px 275px;
     grid-template-columns: 260px 260px 260px;
     justify-content: center;
 }
@@ -47,19 +45,17 @@
 @media (max-width: 768px) {
     .section {
         padding-top: 1rem;
-        background-color: #333;
-        /* Adjust background color for medium screens */
         height: 40vh;
-        /* Adjust height for medium screens */
+    }
+
+    .grid {
+        grid-template-columns: 260px 260px 260px;
     }
 
     .heading {
         font-size: 24px;
-        /* Adjust font size for medium screens */
         margin-left: 10px;
-        /* Adjust margin for medium screens */
         margin-right: 10px;
-        /* Adjust margin for medium screens */
     }
 }
 
@@ -67,18 +63,16 @@
 @media (max-width: 480px) {
     .section {
         padding-top: 1rem;
-        background-color: #222;
-        /* Adjust background color for small screens */
         height: 30vh;
-        /* Adjust height for small screens */
+    }
+
+    .grid {
+        grid-template-columns: 68px 68px 68px;
     }
 
     .heading {
         font-size: 20px;
-        /* Adjust font size for small screens */
         margin-left: 5px;
-        /* Adjust margin for small screens */
         margin-right: 5px;
-        /* Adjust margin for small screens */
     }
 }

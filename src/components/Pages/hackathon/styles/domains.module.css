@@ -54,7 +54,7 @@
 }
 
 /* Media query for medium screens (tablets) */
-@media (max-width: 768px) {
+@media (max-width: 987px) {
     .container {
         padding: 0.5rem 2rem;
         /* Adjust padding for medium screens */
@@ -80,6 +80,13 @@
         /* Adjust image size for medium screens */
         width: 6rem;
         /* Adjust image size for medium screens */
+    }
+}
+
+@media (max-width: 768px) {
+    .domainImage {
+        height: 4rem;
+        width: 4rem;
     }
 }
 

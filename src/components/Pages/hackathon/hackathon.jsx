@@ -10,19 +10,18 @@ import Sponsers from "./components/Sponsers";
 
 const Hackathon = () => {
   return (
-    <main id="hackathon" className={styles.container}>
-      <div className={styles.gradientbg}>
-
-      <Hero />
-      </div>
-      <div className={styles.mainbg}>  
-      <About />
-      <Domains />
-      <Prizes />
-      <Timeline />
-      <FAQs />
-      <Sponsers />
-      </div>
+    <main className={styles.container}>
+      <figure className={styles.gradientbg}>
+        <Hero />
+      </figure>
+      <figure className={styles.mainbg}>
+        <About />
+        <Domains />
+        <Prizes />
+        <Timeline />
+        <FAQs />
+        <Sponsers />
+      </figure>
     </main>
   );
 };

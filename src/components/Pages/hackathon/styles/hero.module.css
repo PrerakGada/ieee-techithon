@@ -9,17 +9,6 @@ figure {
     min-height: 100svh;
 }
 
-/* Hero section background */
-/* .background {
-    position: fixed;
-    top: 0;
-    left: 0;
-    mix-blend-mode: color-dodge;
-    width: 100svw;
-    height: 100svh;
-    object-fit: cover;
-} */
-
 /* Header for logos */
 .header {
     display: flex;
@@ -98,7 +87,7 @@ figure {
     position: relative;
     z-index: 9999999;
     border-radius: 0.5rem;
-    height: 44px; 
+    height: 44px;
     width: 312px;
 }
 
@@ -300,7 +289,7 @@ a {
     }
 }
 
-path{
+path {
     stroke: aliceblue;
     stroke-width: 1px;
 }
