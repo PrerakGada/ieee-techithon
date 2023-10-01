@@ -1,12 +1,14 @@
 .section {
     padding-top: 1rem;
     height: 50vh;
+    justify-content: space-between;
 }
 
 .justify {
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
 .heading {
@@ -27,7 +29,8 @@
     margin-top: 4rem;
     margin-bottom: 4rem;
     display: grid;
-    grid-template-columns: 260px 260px 260px;
+    grid-template-columns: 260px  260px 260px;
+    grid-template-rows: 260px  260px 260px;
     justify-content: center;
 }
 
