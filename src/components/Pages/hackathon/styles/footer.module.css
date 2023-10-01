@@ -1,3 +1,7 @@
+.section {
+    width: 100%;
+}
+
 .justify {
     display: flex;
     align-items: center;
@@ -39,22 +43,18 @@
 }
 
 .footerContainer {
-    display: grid;
-    grid-template-columns: 0.7fr 0.3fr;
+    padding: 1rem 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     gap: 20px;
     align-items: center;
-    border-radius: 10px;
+    border-radius: 10px 0;
     background: rgba(255, 248, 90, 0.20);
-    padding: 20px;
-    height: 480px;
-}
-
-.leftFooter {
-    margin-left: 5rem;
 }
 
 .rightFooter {
-    justify-content: right;
+    place-content: right;
 }
 
 .heading {
@@ -64,16 +64,28 @@
 
 .footerContent {
     color: white;
-    
+
 }
 
 .map {
-    width: 440px;
-    height: 440px;
+    height: auto;
     background-color: #ddd;
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
     font-size: 20px;
+}
+
+@media (max-width: 980px) {
+    .footerContainer {
+        flex-direction: column;
+        padding: 0 2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .map {
+        max-width: 340px;
+    }
 }
