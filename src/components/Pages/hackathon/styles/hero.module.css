@@ -88,8 +88,8 @@ figure {
     position: relative;
     z-index: 9999999;
     border-radius: 0.5rem;
-    height: 44px;
-    width: 312px;
+    height: auto;
+    width: auto;
 }
 
 
@@ -212,8 +212,8 @@ a {
 
     .applyButton {
         /* position: absolute; */
-        height: 45px;
-        width: 280px;
+        height: auto;
+        width: auto;
         z-index: 9999999;
         /* bottom : 3rem; */
         /* margin: 0 auto; */
@@ -281,8 +281,8 @@ a {
 
     .applyButton {
         /* position: absolute; */
-        height: 45px;
-        width: 280px;
+        height: auto;
+        width: auto;
         z-index: 9999999;
         /* bottom : 3rem; */
         /* margin: 0 auto; */

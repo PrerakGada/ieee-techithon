@@ -98,7 +98,7 @@ const Hero = () => {
               <img
                 alt="devfolio-button"
                 className={styles.applyButton}
-                src="/hackmania/applywithdevfolio.png"
+                src="/hackmania/applywithdevfolio1.png"
               ></img>
             </a>
           </div>
