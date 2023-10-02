@@ -33,11 +33,11 @@ const Footer = () => {
                         <div className={styles.flex}>
 
                         <a className={styles.instagram} href="https://www.instagram.com/ieeetechithon">
-                        <img style={{margin:7}} src="/hackmania/instagram.png" alt="Instagram"  />
+                        <img style={{margin:7}} src="/hackmania/instagram1.png" alt="Instagram"  />
                         </a>
                         
                         <a className={styles.instagram} href="https://www.instagram.com/gdsc_ace">
-                        <img style={{margin:7}} src="/hackmania/instagram.png" alt="Instagram"  />
+                        <img style={{margin:7}} src="/hackmania/instagram2.png" alt="Instagram"  />
                         </a>
                         </div>
                         <p>

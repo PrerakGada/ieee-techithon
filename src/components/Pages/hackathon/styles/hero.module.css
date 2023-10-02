@@ -32,8 +32,9 @@ figure {
 .logoTwo {
     padding-top: 0.5rem;
     height: 65px;
-    justify-self: end;
+    justify-self: left;
     width: auto;
+    margin-left: 2px;
 }
 
 .highlight {
