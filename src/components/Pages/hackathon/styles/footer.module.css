@@ -29,17 +29,17 @@
 }
 
 .heading {
-    justify-content: center;
-    align-items: center;
-    color: white !important;
-    font-family: 'Goldman';
-    font-size: 28px !important;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    letter-spacing: 0.84px;
-    margin-left: 20px;
-    margin-right: 20px;
+  justify-content: center;
+  align-items: center;
+  color: white !important;
+  font-family: 'Goldman';
+  font-size: 28px !important;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.84px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .footerContainer {
@@ -49,7 +49,7 @@
   align-items: center;
   gap: 20px;
   align-items: center;
-  border-radius: 10px ;
+  border-radius: 10px;
   background: rgba(255, 248, 90, 0.2);
 }
 
@@ -85,6 +85,21 @@
   overflow: hidden;
 }
 
+.instagram {
+  display: flex;
+  justify-content: left;
+}
+
+.mappy {
+  border: 4px solid #000;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+}
+
+.flex {
+  display: flex;
+}
+
 @media (max-width: 980px) {
   .footerContainer {
     flex-direction: column;
@@ -96,20 +111,13 @@
   .map {
     max-width: 340px;
   }
-}
 
-.hehe {
-  display: flex;
-  justify-content: left;
-}
+  .footerheading {
+    margin-top: 2rem;
+  }
 
-.mappy {
-  border: 4px solid #000;
-  -moz-border-radius: 15px;
-  border-radius: 15px;
-}
-
-.flex{
-    display: flex !important;
-    justify-content: left;
+  .flex {
+    display: flex;
+    justify-content: center;
+  }
 }
